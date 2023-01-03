@@ -1,0 +1,20 @@
+RewriteEngine On
+
+
+RewriteRule ^accueil$ index.php
+
+
+RewriteRule ^addClasse$ view/classes/add.php
+RewriteRule ^listeClasse$ view/classes/liste.php
+
+RewriteRule ^addEtudiant$ view/etudiants/add.php
+RewriteRule ^listeEtudiant$ view/etudiants/liste.php
+
+RewriteRule ^addcaisse$ view/caisses/add.php
+RewriteRule ^listeCaisse$ view/caisses/liste.php
+
+RewriteRule ^addencaissement$ view/encaissement/add.php
+RewriteRule ^listeEncaissement$ view/encaissement/liste.php
+
+
+RewriteRule ^addAgent$ view/agents/add.php
